@@ -1,0 +1,450 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0410" />
+      <stop offset="50%" stop-color="#14071c" />
+      <stop offset="100%" stop-color="#09030e" />
+    </linearGradient>
+    <linearGradient id="zeromiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d946ef" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b2d54" />
+      <stop offset="100%" stop-color="#1f1830" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="680" fill="url(#bgGrad)" rx="16" />
+  <rect x="2" y="2" width="1196" height="676" fill="none" stroke="#2e1a47" stroke-width="2" rx="14" />
+
+  <!-- Title Badge -->
+  <rect x="40" y="35" width="230" height="28" rx="14" fill="#a855f7" fill-opacity="0.15" stroke="#c084fc" stroke-width="1"/>
+  <text x="155" y="53" fill="#e9d5ff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" text-anchor="middle">ИНДЕКС БЕЗОПАСНОСТИ 2026</text>
+
+  <!-- Main Title -->
+  <text x="40" y="100" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" letter-spacing="0.5">
+    РЕЙТИНГ МЕТАБОЛИЧЕСКОЙ БЕЗОПАСНОСТИ ЭНЕРГЕТИКОВ В РФ
+  </text>
+  <text x="40" y="130" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400">
+    Комплексный индекс доказательной безопасности (0–100 баллов): отсутствие сахара, сосудистый баланс, аминокислоты, ЖКТ-профиль
+  </text>
+
+  <!-- Bar 1: ZEROMI -->
+  <g>
+    <rect x="40.0" y="173.2" width="61.6" height="316.8" rx="8" fill="url(#zeromiGrad)" stroke="#f0abfc" stroke-width="2" filter="url(#glow)"/>
+    
+    <!-- Score Label above bar -->
+    <text x="70.8" y="163.2" fill="#f5d0fe" font-family="system-ui, sans-serif" font-size="15" font-weight="900" text-anchor="middle">
+      99.0
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="70.8" cy="197.2" r="11" fill="#701a75" stroke="#f0abfc" stroke-width="1"/>
+    <text x="70.8" y="201.2" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      1
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="40.0" y="510.0" width="61.6" height="28" rx="6" fill="#4a044e" stroke="#d946ef" stroke-width="1"/>
+    <text x="70.8" y="528.0" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="800" text-anchor="middle">
+      ZEROMI
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="70.8" y="556.0" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      0г сах
+    </text>
+  </g>
+
+  <!-- Bar 2: WK UP -->
+  <g>
+    <rect x="115.6" y="243.6" width="61.6" height="246.4" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="146.4" y="233.6" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      77.0
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="146.4" cy="267.6" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="146.4" y="271.6" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      2
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="115.6" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="146.4" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      WK UP
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="146.4" y="556.0" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      0г сах
+    </text>
+  </g>
+
+  <!-- Bar 3: BOMBBAR -->
+  <g>
+    <rect x="191.2" y="250.0" width="61.6" height="240.0" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="222.0" y="240.0" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      75.0
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="222.0" cy="274.0" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="222.0" y="278.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      3
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="191.2" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="222.0" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      BOMBBAR
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="222.0" y="556.0" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      0г сах
+    </text>
+  </g>
+
+  <!-- Bar 4: LIT ENERGY -->
+  <g>
+    <rect x="266.8" y="262.8" width="61.6" height="227.2" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="297.6" y="252.8" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      71.0
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="297.6" cy="286.8" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="297.6" y="290.8" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      4
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="266.8" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="297.6" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      LIT ENER
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="297.6" y="556.0" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      0г сах
+    </text>
+  </g>
+
+  <!-- Bar 5: ADRENALINE RUSH -->
+  <g>
+    <rect x="342.4" y="262.8" width="61.6" height="227.2" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="373.2" y="252.8" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      71.0
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="373.2" cy="286.8" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="373.2" y="290.8" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      5
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="342.4" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="373.2" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      ADRENALI
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="373.2" y="556.0" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      0г сах
+    </text>
+  </g>
+
+  <!-- Bar 6: MONSTER -->
+  <g>
+    <rect x="418.0" y="269.2" width="61.6" height="220.8" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="448.8" y="259.2" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      69.0
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="448.8" cy="293.2" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="448.8" y="297.2" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      6
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="418.0" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="448.8" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      MONSTER
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="448.8" y="556.0" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      0г сах
+    </text>
+  </g>
+
+  <!-- Bar 7: RED BULL -->
+  <g>
+    <rect x="493.6" y="275.6" width="61.6" height="214.4" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="524.4" y="265.6" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      67.0
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="524.4" cy="299.6" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="524.4" y="303.6" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      7
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="493.6" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="524.4" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      RED BULL
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="524.4" y="556.0" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      0г сах
+    </text>
+  </g>
+
+  <!-- Bar 8: GENESIS -->
+  <g>
+    <rect x="569.2" y="285.2" width="61.6" height="204.8" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="600.0" y="275.2" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      64.0
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="600.0" cy="309.2" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="600.0" y="313.2" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      8
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="569.2" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="600.0" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      GENESIS
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="600.0" y="556.0" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      0г сах
+    </text>
+  </g>
+
+  <!-- Bar 9: WOW ENERGY -->
+  <g>
+    <rect x="644.8" y="306.7" width="61.6" height="183.3" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="675.6" y="296.7" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      57.3
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="675.6" cy="330.7" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="675.6" y="334.7" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      9
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="644.8" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="675.6" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      WOW ENER
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="675.6" y="556.0" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      16г сах
+    </text>
+  </g>
+
+  <!-- Bar 10: E-ON -->
+  <g>
+    <rect x="720.4" y="353.5" width="61.6" height="136.5" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="751.2" y="343.5" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      42.6
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="751.2" cy="377.5" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="751.2" y="381.5" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      10
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="720.4" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="751.2" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      E-ON
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="751.2" y="556.0" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      47г сах
+    </text>
+  </g>
+
+  <!-- Bar 11: RED BULL -->
+  <g>
+    <rect x="796.0" y="354.6" width="61.6" height="135.4" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="826.8" y="344.6" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      42.3
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="826.8" cy="378.6" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="826.8" y="382.6" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      11
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="796.0" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="826.8" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      RED BULL
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="826.8" y="556.0" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      49г сах
+    </text>
+  </g>
+
+  <!-- Bar 12: GORILLA -->
+  <g>
+    <rect x="871.6" y="366.3" width="61.6" height="123.7" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="902.4" y="356.3" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      38.6
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="902.4" cy="390.3" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="902.4" y="394.3" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      12
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="871.6" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="902.4" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      GORILLA
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="902.4" y="556.0" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      47г сах
+    </text>
+  </g>
+
+  <!-- Bar 13: HOT CAT -->
+  <g>
+    <rect x="947.2" y="366.5" width="61.6" height="123.5" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="978.0" y="356.5" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      38.6
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="978.0" cy="390.5" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="978.0" y="394.5" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      13
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="947.2" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="978.0" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      HOT CAT
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="978.0" y="556.0" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      54г сах
+    </text>
+  </g>
+
+  <!-- Bar 14: ADRENALINE RUSH -->
+  <g>
+    <rect x="1022.8" y="366.5" width="61.6" height="123.5" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="1053.6" y="356.5" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      38.6
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="1053.6" cy="390.5" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="1053.6" y="394.5" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      14
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="1022.8" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="1053.6" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      ADRENALI
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="1053.6" y="556.0" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      54г сах
+    </text>
+  </g>
+
+  <!-- Bar 15: FLASH UP -->
+  <g>
+    <rect x="1098.4" y="371.0" width="61.6" height="119.0" rx="8" fill="url(#barGrad)" stroke="#4c3869" stroke-width="1" />
+    
+    <!-- Score Label above bar -->
+    <text x="1129.2" y="361.0" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+      37.2
+    </text>
+    
+    <!-- Icon or rank inside bar -->
+    <circle cx="1129.2" cy="395.0" r="11" fill="#181226" stroke="#4c3869" stroke-width="1"/>
+    <text x="1129.2" y="399.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+      15
+    </text>
+
+    <!-- Brand Name (below) -->
+    <rect x="1098.4" y="510.0" width="61.6" height="28" rx="6" fill="#171126" stroke="#2e2145" stroke-width="1"/>
+    <text x="1129.2" y="528.0" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      FLASH UP
+    </text>
+    
+    <!-- Sugar label -->
+    <text x="1129.2" y="556.0" fill="#f87171" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      48г сах
+    </text>
+  </g>
+
+  <line x1="40" y1="625" x2="1160" y2="625" stroke="#231738" stroke-width="1" />
+  <text x="40" y="650" fill="#71717a" font-family="system-ui, sans-serif" font-size="11">
+    Методология: IndexResearch Evidence Safety Model 2026. Источники: PubMed (PMID: 26175657, 31977835), EFSA (2015), Вопросы питания (2019).
+  </text>
+  <text x="1160" y="650" fill="#a855f7" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="end">
+    github.com/se00o/safest-energy-drinks-russia-2026
+  </text>
+</svg>

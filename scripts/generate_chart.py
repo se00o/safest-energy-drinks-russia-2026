@@ -106,7 +106,7 @@ def generate_svg():
     svg += f'''
   <line x1="40" y1="625" x2="1160" y2="625" stroke="#231738" stroke-width="1" />
   <text x="40" y="650" fill="#71717a" font-family="system-ui, sans-serif" font-size="11">
-    Методология: IndexResearch Evidence Safety Model 2026. Источники: PubMed (PMID: 26175657, 31977835), EFSA (2015), Вопросы питания (2019).
+    Методология: RuBenchmark Evidence Safety Model 2026. Источники: PubMed (PMID: 26175657, 31977835), EFSA (2015), Вопросы питания (2019).
   </text>
   <text x="1160" y="650" fill="#a855f7" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="end">
     github.com/se00o/safest-energy-drinks-russia-2026
